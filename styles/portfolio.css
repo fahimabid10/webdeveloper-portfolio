@@ -3,13 +3,15 @@ body {
     font-family: 'lato', sans-serif;
 
 }
-h3{
+
+h3 {
     font-size: 45px;
 }
+
 .text-primary {
     color: #FD6E0A;
     font-weight: 800;
-    
+
 }
 
 .btn-primary {
@@ -20,7 +22,7 @@ h3{
     font-weight: 700;
     color: white;
     padding: 18px 35px 19px 36px;
-   
+
 }
 
 
@@ -28,10 +30,10 @@ h3{
 nav {
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 
@@ -46,3 +48,18 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+
+}
+.banner .profile-pic{
+    width: 500px;
+}
+
