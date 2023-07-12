@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+
+}
+h3{
+    font-size: 45px;
+}
+.text-primary {
+    color: #FD6E0A;
+    font-weight: 800;
+    
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px 19px 36px;
+   
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
